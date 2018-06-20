@@ -1,13 +1,13 @@
 defmodule Booking do
-  defstruct user: %User{},
+  defstruct to:   "Cotheniusstr. #{:rand.uniform(100)}",
             from: "Torstr. #{:rand.uniform(100)}",
-            to:   "Cotheniusstr. #{:rand.uniform(100)}",
-            trip: nil,
             timestamp: DateTime.utc_now,
+            user: nil,
+            trip: nil,
             id: nil
 
   def new do
-    %__MODULE__{ id: :rand.uniform(1_000_000), user: %User{ name: User.new } }
+    %__MODULE__{ id: :rand.uniform(1_000_000), user: User.new }
   end
 
 end
