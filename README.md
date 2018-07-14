@@ -1,6 +1,6 @@
 # Booking
 
-**TODO: Add description**
+Just a sample Booking -> Rideshare example using Elixir GenServer.
 
 ## Installation
 
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/booking](https://hexdocs.pm/booking).
-

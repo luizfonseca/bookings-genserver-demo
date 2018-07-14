@@ -1,5 +1,5 @@
 defmodule Booking do
-  defstruct to:   "Cotheniusstr. #{:rand.uniform(100)}",
+  defstruct to:   "Alexanderplatz. #{:rand.uniform(100)}",
             from: "Torstr. #{:rand.uniform(100)}",
             timestamp: DateTime.utc_now,
             user: nil,

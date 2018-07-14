@@ -44,7 +44,10 @@ defmodule Solver do
 
       booking = %{ booking | trip: trip }
       in_minutes = Float.round(trip.duration / 60, 0)
-      IO.puts("#{booking.user.name} booking is at #{trip.pickup_time}. It will take #{in_minutes} minutes")
+
+      IO.puts("
+              #{booking.user.name} booking is at 
+              #{trip.pickup_time}. It will take #{in_minutes} minutes")
 
       Process.sleep(8000)
 
